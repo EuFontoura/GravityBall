@@ -1,7 +1,7 @@
 # 🪐 Gravity Ball
 
 Um experimento interativo de física 2D com HTML, CSS e JavaScript, que simula uma "bola" (imagem redonda) sujeita à gravidade, colisões e arraste via mouse. Na parte superior, o usuário pode trocar a textura da bola entre panda, marmota e capivara.
-___
+
 ## 📁 Estrutura de Arquivos
 ```
 /imgs
@@ -12,12 +12,12 @@ index.html
 style.css
 script.js
 ```
-___
+
 ## 🧩 Tecnologias Utilizadas
 - HTML5 – estrutura da página
 - CSS3 – estilos e animações básicas
 - JavaScript Vanilla – simulação de física, eventos de mouse e interação
-___
+
 ## 🚀 Funcionalidades
 
 #### ✅ Gravidade e Movimento
@@ -44,12 +44,12 @@ const velocidadeInicialY = (e.clientY - inicioY) * fatorEscala;
 
 Ou seja: ```v = (posição_final - posição_inicial) x fator_de_escala```
 
-___
+
 #### ✅ Troca de Textura
 - O usuário pode escolher uma imagem (panda, marmota ou capivara) clicando nos círculos coloridos na caixa de seleção que aparece ao hooverar a seta.
 - O clique muda dinamicamente o background-image da bola.
   
-___
+
 ## 🕹️ Como rodar esse projeto
 1. Clone o repositório (ou baixe o zip)
 Se estiver usando Git:
@@ -84,6 +84,6 @@ Clique e arraste a bolinha pra aplicar “impulso”.
 Ela cai com gravidade e rebate nas bordas.
 
 Troque a imagem da bolinha clicando nas opções coloridas acima dela.
-___
+
 ## 💙 Contribuições
 Esse projeto foi desenvolvido por Gabriel Fontoura.
