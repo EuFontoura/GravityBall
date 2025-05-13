@@ -48,6 +48,42 @@ ___
 #### ✅ Troca de Textura
 - O usuário pode escolher uma imagem (panda, marmota ou capivara) clicando nos círculos coloridos na caixa de seleção que aparece ao hooverar a seta.
 - O clique muda dinamicamente o background-image da bola.
+  
+___
+## 🕹️ Como rodar esse projeto
+1. Clone o repositório (ou baixe o zip)
+Se estiver usando Git:
 
+```
+git clone https://github.com/EuFontoura/GravityBall.git
+cd GravityBall
+```
+Ou então só baixa o .zip e extrai onde quiser.
+
+#### 1. Organize a estrutura de pastas
+Certifique-se de que os arquivos estejam organizados assim:
+
+```
+/GravityBall
+├── index.html
+├── style.css
+├── script.js
+└── /imgs
+    ├── panda.webp
+    ├── marmota.webp
+    └── capibara.webp
+```
+#### 2. Abra o arquivo index.html no navegador
+Sério, só isso. Clica duas vezes no index.html ou abre ele com o botão direito > "Abrir com" > "Google Chrome" (ou o navegador que tu quiser).
+
+Não precisa instalar nada, só rodar servidor ou usar framework. Só HTML, CSS e JS raiz — _do jeitinho que o Frontend hardcore dos anos 2000 gostava._
+
+#### 3. Interaja com a bolinha
+Clique e arraste a bolinha pra aplicar “impulso”.
+
+Ela cai com gravidade e rebate nas bordas.
+
+Troque a imagem da bolinha clicando nas opções coloridas acima dela.
+___
 ## 💙 Contribuições
 Esse projeto foi desenvolvido por Gabriel Fontoura.
